@@ -1,0 +1,6 @@
+framework module Pods_Co_Working_Augmentation {
+  umbrella header "Pods-Co-Working Augmentation-umbrella.h"
+
+  export *
+  module * { export * }
+}

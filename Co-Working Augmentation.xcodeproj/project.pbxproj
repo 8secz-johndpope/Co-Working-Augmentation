@@ -12,9 +12,22 @@
 		4485AE452242A37300F6673F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4485AE432242A37300F6673F /* Main.storyboard */; };
 		4485AE472242A37400F6673F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4485AE462242A37400F6673F /* Assets.xcassets */; };
 		4485AE4A2242A37400F6673F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4485AE482242A37400F6673F /* LaunchScreen.storyboard */; };
+		4485AE572242A6CD00F6673F /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4485AE512242A6CD00F6673F /* Helpers.swift */; };
+		4485AE582242A6CD00F6673F /* CeraRoundPro-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4485AE522242A6CD00F6673F /* CeraRoundPro-Medium.otf */; };
+		4485AE592242A6CD00F6673F /* Paint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4485AE532242A6CD00F6673F /* Paint.swift */; };
+		4485AE5A2242A6CD00F6673F /* CeraRoundPro-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4485AE542242A6CD00F6673F /* CeraRoundPro-Light.otf */; };
+		4485AE5B2242A6CD00F6673F /* CeraRoundPro-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4485AE552242A6CD00F6673F /* CeraRoundPro-Bold.otf */; };
+		4485AE5C2242A6CD00F6673F /* CeraRoundPro-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4485AE562242A6CD00F6673F /* CeraRoundPro-Regular.otf */; };
+		4485AE5E2246733100F6673F /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4485AE5D2246733100F6673F /* Extensions.swift */; };
+		4485AE602246A9AA00F6673F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4485AE5F2246A9AA00F6673F /* GoogleService-Info.plist */; };
+		4485AE802246B72F00F6673F /* SecondaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4485AE7F2246B72F00F6673F /* SecondaryView.swift */; };
+		4485AE842247903E00F6673F /* waitingfor.m4r in Resources */ = {isa = PBXBuildFile; fileRef = 4485AE832247903E00F6673F /* waitingfor.m4r */; };
+		4485AE862247908B00F6673F /* waitingfor.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4485AE852247908B00F6673F /* waitingfor.mp3 */; };
+		CD7967F1486CEAD03FEF5A02 /* Pods_Co_Working_Augmentation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0024F11F5A3B176C2B4107EE /* Pods_Co_Working_Augmentation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0024F11F5A3B176C2B4107EE /* Pods_Co_Working_Augmentation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Co_Working_Augmentation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4485AE3C2242A37300F6673F /* Co-Working Augmentation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Co-Working Augmentation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4485AE3F2242A37300F6673F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4485AE412242A37300F6673F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +35,19 @@
 		4485AE462242A37400F6673F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4485AE492242A37400F6673F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4485AE4B2242A37400F6673F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4485AE512242A6CD00F6673F /* Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		4485AE522242A6CD00F6673F /* CeraRoundPro-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CeraRoundPro-Medium.otf"; sourceTree = "<group>"; };
+		4485AE532242A6CD00F6673F /* Paint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Paint.swift; sourceTree = "<group>"; };
+		4485AE542242A6CD00F6673F /* CeraRoundPro-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CeraRoundPro-Light.otf"; sourceTree = "<group>"; };
+		4485AE552242A6CD00F6673F /* CeraRoundPro-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CeraRoundPro-Bold.otf"; sourceTree = "<group>"; };
+		4485AE562242A6CD00F6673F /* CeraRoundPro-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CeraRoundPro-Regular.otf"; sourceTree = "<group>"; };
+		4485AE5D2246733100F6673F /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		4485AE5F2246A9AA00F6673F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		4485AE7F2246B72F00F6673F /* SecondaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondaryView.swift; sourceTree = "<group>"; };
+		4485AE832247903E00F6673F /* waitingfor.m4r */ = {isa = PBXFileReference; lastKnownFileType = file; path = waitingfor.m4r; sourceTree = "<group>"; };
+		4485AE852247908B00F6673F /* waitingfor.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = waitingfor.mp3; sourceTree = "<group>"; };
+		8588078F9B7262ABC2BBCDFE /* Pods-Co-Working Augmentation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Co-Working Augmentation.debug.xcconfig"; path = "Target Support Files/Pods-Co-Working Augmentation/Pods-Co-Working Augmentation.debug.xcconfig"; sourceTree = "<group>"; };
+		C580ACC74F113E911314544C /* Pods-Co-Working Augmentation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Co-Working Augmentation.release.xcconfig"; path = "Target Support Files/Pods-Co-Working Augmentation/Pods-Co-Working Augmentation.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD7967F1486CEAD03FEF5A02 /* Pods_Co_Working_Augmentation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +67,8 @@
 			children = (
 				4485AE3E2242A37300F6673F /* Co-Working Augmentation */,
 				4485AE3D2242A37300F6673F /* Products */,
+				DF572BD15126532AAA1DF1D6 /* Pods */,
+				DEAD096C6A065D765ECBD9B4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,12 +85,40 @@
 			children = (
 				4485AE3F2242A37300F6673F /* AppDelegate.swift */,
 				4485AE412242A37300F6673F /* ViewController.swift */,
+				4485AE7F2246B72F00F6673F /* SecondaryView.swift */,
+				4485AE832247903E00F6673F /* waitingfor.m4r */,
+				4485AE852247908B00F6673F /* waitingfor.mp3 */,
 				4485AE432242A37300F6673F /* Main.storyboard */,
 				4485AE462242A37400F6673F /* Assets.xcassets */,
+				4485AE552242A6CD00F6673F /* CeraRoundPro-Bold.otf */,
+				4485AE542242A6CD00F6673F /* CeraRoundPro-Light.otf */,
+				4485AE522242A6CD00F6673F /* CeraRoundPro-Medium.otf */,
+				4485AE562242A6CD00F6673F /* CeraRoundPro-Regular.otf */,
+				4485AE512242A6CD00F6673F /* Helpers.swift */,
+				4485AE532242A6CD00F6673F /* Paint.swift */,
+				4485AE5D2246733100F6673F /* Extensions.swift */,
 				4485AE482242A37400F6673F /* LaunchScreen.storyboard */,
+				4485AE5F2246A9AA00F6673F /* GoogleService-Info.plist */,
 				4485AE4B2242A37400F6673F /* Info.plist */,
 			);
 			path = "Co-Working Augmentation";
+			sourceTree = "<group>";
+		};
+		DEAD096C6A065D765ECBD9B4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0024F11F5A3B176C2B4107EE /* Pods_Co_Working_Augmentation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DF572BD15126532AAA1DF1D6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8588078F9B7262ABC2BBCDFE /* Pods-Co-Working Augmentation.debug.xcconfig */,
+				C580ACC74F113E911314544C /* Pods-Co-Working Augmentation.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +128,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4485AE4E2242A37400F6673F /* Build configuration list for PBXNativeTarget "Co-Working Augmentation" */;
 			buildPhases = (
+				8D4EF5B85657409CB408D8C9 /* [CP] Check Pods Manifest.lock */,
 				4485AE382242A37300F6673F /* Sources */,
 				4485AE392242A37300F6673F /* Frameworks */,
 				4485AE3A2242A37300F6673F /* Resources */,
+				21FEFB3EFE8C89B8A9AD9C88 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -122,21 +181,89 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4485AE582242A6CD00F6673F /* CeraRoundPro-Medium.otf in Resources */,
+				4485AE602246A9AA00F6673F /* GoogleService-Info.plist in Resources */,
 				4485AE4A2242A37400F6673F /* LaunchScreen.storyboard in Resources */,
+				4485AE842247903E00F6673F /* waitingfor.m4r in Resources */,
 				4485AE472242A37400F6673F /* Assets.xcassets in Resources */,
 				4485AE452242A37300F6673F /* Main.storyboard in Resources */,
+				4485AE5B2242A6CD00F6673F /* CeraRoundPro-Bold.otf in Resources */,
+				4485AE5C2242A6CD00F6673F /* CeraRoundPro-Regular.otf in Resources */,
+				4485AE862247908B00F6673F /* waitingfor.mp3 in Resources */,
+				4485AE5A2242A6CD00F6673F /* CeraRoundPro-Light.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		21FEFB3EFE8C89B8A9AD9C88 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Co-Working Augmentation/Pods-Co-Working Augmentation-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/GradientView/GradientView.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftySound/SwiftySound.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GradientView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftySound.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Co-Working Augmentation/Pods-Co-Working Augmentation-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8D4EF5B85657409CB408D8C9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Co-Working Augmentation-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4485AE382242A37300F6673F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4485AE5E2246733100F6673F /* Extensions.swift in Sources */,
 				4485AE422242A37300F6673F /* ViewController.swift in Sources */,
+				4485AE572242A6CD00F6673F /* Helpers.swift in Sources */,
+				4485AE592242A6CD00F6673F /* Paint.swift in Sources */,
 				4485AE402242A37300F6673F /* AppDelegate.swift in Sources */,
+				4485AE802246B72F00F6673F /* SecondaryView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +407,7 @@
 		};
 		4485AE4F2242A37400F6673F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8588078F9B7262ABC2BBCDFE /* Pods-Co-Working Augmentation.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -298,6 +426,7 @@
 		};
 		4485AE502242A37400F6673F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C580ACC74F113E911314544C /* Pods-Co-Working Augmentation.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
